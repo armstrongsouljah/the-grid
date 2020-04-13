@@ -1,0 +1,53 @@
+html {
+    width:80%;
+    margin: 0 auto;
+    font-family: 'Baloo Paaji 2', cursive;
+    
+}
+
+ul, li, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 12px;
+    row-gap: 12px;
+}
+.card-panel {
+    box-shadow: 1px 3px 7px 0px rgba(73,45,56,.6);
+    background: rgb(166, 209, 209);
+    margin-bottom: 9px;
+    padding: 12px;
+    justify-self: center;
+    align-self: center;
+}
+.nav-bar{
+    background: #3f4242;
+    margin-top: 0px;
+}
+.nav-link > a {
+    color: #d86d26;
+}
+.main-nav{
+    display: grid;
+    grid-template-columns: 50vw 70px 70px 70px 70px;
+    column-gap: 12px;
+    padding: 10px;
+}
+.side-bar {
+    background: #cac9c8;
+    height: 30vh;
+    margin: 0;
+}
+li.nav-item, li.nav-item > a{
+    display: block;
+    width: 250px;
+    margin: 10px;
+}
+li.nav-item:hover{
+    background: black;
+    transition: ease-in .4s;
+    padding: 9px;
+}
